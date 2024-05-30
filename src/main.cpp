@@ -4,7 +4,8 @@
 #include "TimedDoor.h"
 
 int main() {
-  TimedDoor tDoor(5);
+  int time = 5;
+  TimedDoor tDoor(time);
   tDoor.lock();
   tDoor.unlock();
 
